@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load the trained Random Forest model
-model = pickle.load(open("best_model.pkl", "rb"))
+model = pickle.load(open("best_model_1.pkl", "rb"))
 
 st.title("🚗 Car Price Prediction (CarDekho)")
 
